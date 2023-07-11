@@ -15,7 +15,7 @@ git clone https://github.com/Dhruvp25/homeserver/setup.git
 2. <u>Goto that directory</u> 
 
 ```copy 
-cd CeresTriton
+cd setup
 ```
 3. <u>Execute permission</u>
 
