@@ -2,7 +2,7 @@ sleep 5
 
 echo "STARTING DOCKER ALL IN ONE AIO"
 
-sleep 2 
+sleep 2
 
 echo "apache port 11000 will be used" 
 
