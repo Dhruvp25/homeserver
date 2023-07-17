@@ -1,0 +1,55 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/services
+
+- High times:
+    - My Plex:
+        icon: plex.png
+        href: http://<ip address>/web/index.html
+        description: Plex & Chill!
+        widget:
+            type: plex
+            url: http://<ip address>:32400
+            key: apikeyfromyourplexserver
+
+    - Minecraft:
+        icon: minecraft.png
+        description: Dont Mind me mining!!!
+        widget:
+            type: minecraft
+            url: udp://<ip address>:25565
+            players: true
+            version: true
+            status: true
+            
+- Cloud Storage:
+    - My Photos:
+        icon: synology-photos.png
+        href: http://<ip address>/
+        description: Most of them are lived.
+        widget:
+            type: immich
+            url: https://<ip address>/
+            key: apikeyfromyourimmichweb
+
+    - Nextcloud:
+        icon: nextcloud.png
+        href: http://<ip address>/apps/dashboard/
+        description: My Cloud Storage
+
+- Network:
+    - AdGuard:
+        icon: adguard-home.png
+        href: http://<ip address>/
+        description: Ad's not needed!
+        widget:
+            type: adguard
+            url: http://<ip address>/
+            username: your user name
+            password: your password
+
+    - Portainer:
+        icon: portainer.png
+        href: http://<ip address>/
+        description: Docker HUB!
+        server: Phoenix Server
