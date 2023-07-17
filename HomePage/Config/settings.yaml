@@ -1,0 +1,16 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/settings
+
+title: Phoenix Home
+
+theme: dark
+color: slate
+
+background: https://i.imgur.com/lAY5TDL.jpg
+
+favicon: https://img.icons8.com/?size=32&id=ORAO5DF37nXq&format=png
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
