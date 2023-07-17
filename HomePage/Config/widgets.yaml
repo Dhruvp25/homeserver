@@ -1,0 +1,32 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/widgets
+
+- greeting:
+    text_size: md
+    text:  Phoenix Screech's!!
+
+- resources:
+    label: System
+    cpu: true
+    memory: true
+    expanded: true
+    cputemp: true
+    uptime: true
+
+- resources:
+    label: Storage
+    expanded: true
+    disk:
+        - /home
+
+- search:
+    provider: google
+    target: _blank
+
+- openmeteo:
+    label: <your city>
+    latitude: <yours>(99.9999)
+    longitude: <yours>(99.9999)
+    units: metric # or imperial
+    cache: 10 # Time in minutes to cache API responses, to stay within limits
