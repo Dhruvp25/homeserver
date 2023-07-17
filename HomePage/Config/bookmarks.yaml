@@ -1,0 +1,42 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/bookmarks
+
+- Developer:
+    - Github:
+        - icon: https://i.imgur.com/JF0u3hK.png
+          href: https://github.com/Dhruvp25
+
+    - Cloudflare:
+        - icon: cloudflare.png
+          href: https://one.dash.cloudflare.com/
+
+    - ChatGPT:
+        - icon: chatgpt.png
+          href: https://chat.openai.com/
+
+- Social:
+    - Instagram:
+        - icon: instagram.png
+          href: https://instagram.com/
+
+    - LinkedIn:
+        - icon: linkedin.png
+          href: https://linkedin.com/
+
+    - Twitter:
+        - icon: twitter.png
+          href: https://twitter.com/
+
+- Entertainment:
+    - YouTube:
+        - icon: youtube.png
+          href: https://youtube.com/
+
+    - Amazon Prime:
+        - icon: https://img.icons8.com/?size=512&id=Rs68BrhxH0XZ&format=png
+          href: https://primevideo.com/
+
+    - Google Photos:
+        - icon: google-photos.png
+          href: https://photos.google.com/
