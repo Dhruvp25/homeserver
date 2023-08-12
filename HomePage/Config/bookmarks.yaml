@@ -2,32 +2,6 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/bookmarks
 
-- Developer:
-    - Github:
-        - icon: https://i.imgur.com/JF0u3hK.png
-          href: https://github.com/Dhruvp25
-
-    - Cloudflare:
-        - icon: cloudflare.png
-          href: https://one.dash.cloudflare.com/
-
-    - ChatGPT:
-        - icon: chatgpt.png
-          href: https://chat.openai.com/
-
-- Social:
-    - Instagram:
-        - icon: instagram.png
-          href: https://instagram.com/
-
-    - LinkedIn:
-        - icon: linkedin.png
-          href: https://linkedin.com/
-
-    - Twitter:
-        - icon: twitter.png
-          href: https://twitter.com/
-
 - Entertainment:
     - YouTube:
         - icon: youtube.png
@@ -40,3 +14,32 @@
     - Google Photos:
         - icon: google-photos.png
           href: https://photos.google.com/
+
+- Social:
+    - My Website:
+        - icon: watcher.png
+          href: https://www.yourportfolio.site
+    - Instagram:
+        - icon: instagram.png
+          href: https://instagram.com/
+
+    - LinkedIn:
+        - icon: linkedin.png
+          href: https://linkedin.com/in/
+
+    - Twitter:
+        - icon: twitter.png
+          href: https://twitter.com/
+
+- Triton Dev :
+    - Github:
+        - icon: https://i.imgur.com/JF0u3hK.png
+          href: https://github.com/Dhruvp25
+
+    - ChatGPT:
+        - icon: chatgpt.png
+          href: https://chat.openai.com/
+
+    - My Server:
+        - icon: truenas-enterprise.png
+          href: http://ssh.your.site
