@@ -4,12 +4,13 @@
 
 - High times:
     - My Plex:
-        icon: plex.png
+        icon: https://i.imgur.com/Xg5dbF5.png
         href: http://<ip address>/web/index.html
         description: Plex & Chill!
         widget:
             type: plex
             url: http://<ip address>:32400
+            fields: ["streams", "movies", "tv"]
             key: apikeyfromyourplexserver
 
     - Minecraft:
@@ -21,6 +22,15 @@
             players: true
             version: true
             status: true
+    - Crypto Games:
+        icon: https://i.imgur.com/vMAV5Tf.png
+        href: https://pro.coinmarketcap.com/account
+        description: It's going to Moonnnn!!!
+        widget:
+            type: coinmarketcap
+            currency: INR # Optional
+            symbols: [BTC, ETH]
+            key: yourapikeyyourapikey
             
 - Cloud Storage:
     - My Photos:
@@ -33,23 +43,44 @@
             key: apikeyfromyourimmichweb
 
     - Nextcloud:
-        icon: nextcloud.png
+        icon: https://i.imgur.com/pAmDXm9.png
         href: http://<ip address>/apps/dashboard/
         description: My Cloud Storage
+            widget:
+            type: nextcloud
+            url: http://cloud.dhruvpatel.site
+            username: yourusername
+            password: yourpassword
 
 - Network:
     - AdGuard:
         icon: adguard-home.png
         href: http://<ip address>/
-        description: Ad's not needed!
+        description: Ads not needed!
         widget:
             type: adguard
             url: http://<ip address>/
-            username: your user name
-            password: your password
+            username: yourusername
+            password: yourpassword
 
     - Portainer:
         icon: portainer.png
         href: http://<ip address>/
         description: Docker HUB!
         server: Phoenix Server
+            widget:
+            type: portainer
+            url: http://port.dhruvpatel.site
+            env: 2 #your env no. mine was 2
+            key: yourprivatekey
+
+    - CloudFlare:
+        icon: cloudflare.png
+        href: https://one.dash.cloudflare.com/access/tunnels
+        description: SSLs and Tunnels.
+        widget:
+            type: cloudflared
+            fields: ["status"]
+            accountid: youraccountid
+            tunnelid: yourtunnelid
+            key: yourapikey
