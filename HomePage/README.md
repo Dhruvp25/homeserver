@@ -36,4 +36,4 @@ You can also check [the homepage site](http://gethomepage.dev) for detailed conf
 
 In config folder my files can help to figure out how to setup all things as my home page below:
 
-![image](https://github.com/Dhruvp25/homeserver/assets/71492443/17bcf06d-bc04-47c0-a020-ff2114fb3909)
+![hompage](https://github.com/Dhruvp25/homeserver/assets/71492443/1de94256-1115-4b79-abc4-ceddfea8367a)
