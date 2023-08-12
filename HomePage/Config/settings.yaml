@@ -4,13 +4,25 @@
 
 title: Phoenix Home
 
+headerStyle: clean
+
 theme: dark
+
 color: slate
 
-background: https://i.imgur.com/lAY5TDL.jpg
+background:
+  image: https://i.imgur.com/lAY5TDL.jpg
+  blur: sm
+  saturate: 24
 
 favicon: https://img.icons8.com/?size=32&id=ORAO5DF37nXq&format=png
 
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+
+hideVersion: true
+
+hideErrors: true
+
+target: _blank
