@@ -2,7 +2,7 @@
 
 To Deploy PORTAINER on you ubuntu server you need to run the following docker.yml code in your server terminal as a root.
 
-Here we also want it to run on http so we alsos hve included ```-p 9000:9000``` in our command so that it can also be hosted on http port.
+Here we also want it to run on http so we have also included ```-p 9000:9000``` in our command so that it can also be hosted on http port.
 
 Now that the installation is complete, you can log into your Portainer Server instance by opening a web browser and going to:
 
