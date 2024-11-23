@@ -4,10 +4,9 @@
 
 Installing it with Docker Compose
 ```yaml
-version: "3.3"
 services:
   homepage:
-    image: ghcr.io/benphelps/homepage:latest
+    image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     ports:
       - 3000:3000
