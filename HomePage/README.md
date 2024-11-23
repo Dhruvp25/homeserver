@@ -1,4 +1,4 @@
-# Get started by going to [Homepage](https://gethomepage.dev/en/installation/)
+# Get started by going to [Homepage](https://gethomepage.dev/installation/docker/)
 
 ### With Docker
 
