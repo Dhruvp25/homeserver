@@ -17,7 +17,7 @@ services:
 or docker run:
 
 ```bash
-docker run -p 3000:3000 -v /path/to/config:/app/config -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/benphelps/homepage:latest
+docker run -p 3000:3000 -v /path/to/config:/app/config -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/gethomepage/homepage:latest
 ```
 
 So, After installation the homepage site will be available for you on http://<ip.address>:3000
